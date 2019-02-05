@@ -41,4 +41,14 @@ public class Merchants {
     @Basic
     @Column(name = "phone", nullable = false)
     private String phone;
+
+    /** 商户地址 */
+    @Basic
+    @Column(name = "address",nullable = false)
+    private String address;
+
+    /** 商户是否通过审核 */
+    @Basic
+    @Column(name = "is_audit", nullable = false)
+    private Boolean isAudit = false;
 }
