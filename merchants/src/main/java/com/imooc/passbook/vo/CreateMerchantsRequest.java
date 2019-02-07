@@ -69,5 +69,11 @@ public class CreateMerchantsRequest {
         Merchants merchants = new Merchants();
 
         merchants.setName(name);
+        merchants.setLogoUrl(logoUrl);
+        merchants.setBusinessLicenseUrl(businessLicenseUrl);
+        merchants.setPhone(phone);
+        merchants.setAddress(address);
+
+        return merchants;
     }
 }
