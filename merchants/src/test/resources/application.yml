@@ -17,3 +17,4 @@ server:
 logging:
   level: debug
   file: imooc-merchants.log
+

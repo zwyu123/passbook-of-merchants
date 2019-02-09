@@ -1,4 +1,4 @@
-package com.imooc.passbook.merchants;
+package com.imooc.passbook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
