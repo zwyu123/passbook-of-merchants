@@ -1,4 +1,4 @@
-package com.imooc.passbook.merchants.service;
+package com.imooc.passbook.service;
 
 import com.alibaba.fastjson.JSON;
 import com.imooc.passbook.service.IMerchantsServ;
