@@ -2877,3 +2877,71 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2019-02-09 21:07:17.597  INFO 222532 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
 2019-02-09 21:07:18.008  INFO 222532 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2d710f1a: startup date [Sat Feb 09 21:07:10 GMT+08:00 2019]; root of context hierarchy
 2019-02-09 21:07:18.012  INFO 222532 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:10:09.086  INFO 234424 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest on LAPTOP-4V49GOFP with PID 234424 (started by zwyu2 in D:\project\passbook of merchants\merchants)
+2019-02-10 14:10:09.110  INFO 234424 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-02-10 14:10:09.149  INFO 234424 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:10:09 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:10:12.466  INFO 234424 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:10:12.491  INFO 234424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-10 14:10:12.617  INFO 234424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-02-10 14:10:12.619  INFO 234424 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-10 14:10:12.621  INFO 234424 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-02-10 14:10:12.692  INFO 234424 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-02-10 14:10:12.924  INFO 234424 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-10 14:10:14.064  INFO 234424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:10:15.099  INFO 234424 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 7.185 seconds (JVM running for 12.218)
+2019-02-10 14:10:15.210  INFO 234424 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-10 14:10:15.635  INFO 234424 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:10:09 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:10:15.640  INFO 234424 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:11:52.955  INFO 136636 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest on LAPTOP-4V49GOFP with PID 136636 (started by zwyu2 in D:\project\passbook of merchants\merchants)
+2019-02-10 14:11:52.957  INFO 136636 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-02-10 14:11:53.053  INFO 136636 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:11:53 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:11:58.409  INFO 136636 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:11:58.435  INFO 136636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-10 14:11:58.575  INFO 136636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-02-10 14:11:58.578  INFO 136636 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-10 14:11:58.592  INFO 136636 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-02-10 14:11:58.714  INFO 136636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-02-10 14:11:58.947  INFO 136636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-10 14:12:00.424  INFO 136636 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:12:01.894  INFO 136636 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 10.499 seconds (JVM running for 13.034)
+2019-02-10 14:12:02.257  INFO 136636 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-10 14:12:03.053  INFO 136636 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:11:53 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:12:03.057  INFO 136636 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:45:31.566  INFO 248020 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest on LAPTOP-4V49GOFP with PID 248020 (started by zwyu2 in D:\project\passbook of merchants\merchants)
+2019-02-10 14:45:31.589  INFO 248020 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-02-10 14:45:31.684  INFO 248020 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:45:31 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:45:36.343  INFO 248020 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:45:36.371  INFO 248020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-10 14:45:36.539  INFO 248020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-02-10 14:45:36.542  INFO 248020 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-10 14:45:36.544  INFO 248020 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-02-10 14:45:36.661  INFO 248020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-02-10 14:45:36.926  INFO 248020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-10 14:45:38.354  INFO 248020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:45:39.595  INFO 248020 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 9.119 seconds (JVM running for 11.306)
+2019-02-10 14:45:39.818  INFO 248020 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-10 14:45:40.554  INFO 248020 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7db12bb6: startup date [Sun Feb 10 14:45:31 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:45:40.557  INFO 248020 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:47:44.488  INFO 193740 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest on LAPTOP-4V49GOFP with PID 193740 (started by zwyu2 in D:\project\passbook of merchants\merchants)
+2019-02-10 14:47:44.489  INFO 193740 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-02-10 14:47:44.549  INFO 193740 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@783a467b: startup date [Sun Feb 10 14:47:44 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:47:47.272  INFO 193740 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:47:47.310  INFO 193740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-10 14:47:47.420  INFO 193740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-02-10 14:47:47.424  INFO 193740 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-10 14:47:47.426  INFO 193740 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-02-10 14:47:47.544  INFO 193740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-02-10 14:47:47.725  INFO 193740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-10 14:47:48.730  INFO 193740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-10 14:47:49.629  INFO 193740 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 5.998 seconds (JVM running for 7.89)
+2019-02-10 14:47:49.723  INFO 193740 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-10 14:47:50.052  INFO 193740 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@783a467b: startup date [Sun Feb 10 14:47:44 GMT+08:00 2019]; root of context hierarchy
+2019-02-10 14:47:50.055  INFO 193740 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
