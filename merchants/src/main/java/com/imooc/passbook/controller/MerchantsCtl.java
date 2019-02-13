@@ -3,6 +3,7 @@ package com.imooc.passbook.controller;
 import com.alibaba.fastjson.JSON;
 import com.imooc.passbook.service.IMerchantsServ;
 import com.imooc.passbook.vo.CreateMerchantsRequest;
+import com.imooc.passbook.vo.PassTemplate;
 import com.imooc.passbook.vo.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,5 +39,13 @@ public class MerchantsCtl {
 
         log.info("BuildMerchantsInfo: {}", id);
         return merchantsServ.buildMerchantsInfoById(id);
+    }
+
+    @ResponseBody
+    @PostMapping("/drop")
+    public Response dropPassTemplate(@RequestBody PassTemplate passTemplate){
+
+        log.info("DropPassTemplate: {}", passTemplate);
+        return merchantsServ.dropPassTemplate(passTemplate);
     }
 }

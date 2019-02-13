@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 权限拦截器
+ * <h1>权限拦截器</h1>
  */
 @Component
 public class AuthCheckInterceptor implements HandlerInterceptor {
