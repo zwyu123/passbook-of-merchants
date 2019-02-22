@@ -29,7 +29,7 @@ public interface IUserPassService {
      * @param userId 用户 id
      * @return {@link Response}
      */
-    Response getUserAllPassInfo(Long userId);
+    Response getUserAllPassInfo(Long userId) throws Exception;
 
     /**
      * <h2>用户使用优惠券</h2>
